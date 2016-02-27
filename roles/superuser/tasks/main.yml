@@ -35,7 +35,7 @@
 
 - name: make gaobin super user
   sudo: True
-  shell: "echo '%{{ superuser_username }}    ALL=(ALL:ALL) NOPASSWD: ALL' > /etc/sudoers.d/dep"
+  shell: "echo '%{{ superuser_username }}    ALL=(ALL:ALL) NOPASSWD: ALL' > /etc/sudoers.d/{{ superuser_username }}"
 
 - file: name=/etc/sudoers.d/{{ superuser_username }} mode=0700
   sudo: True
