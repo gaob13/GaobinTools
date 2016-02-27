@@ -1,9 +1,0 @@
----
-# tasks file for Gwords
-- name: Extract Install Files
-  unarchive: >
-    src=gwords.tar.gz
-    dest=/tmp
-
-- name: Install Gwords
-  shell: cd /tmp/Gwords && bash install.sh && rm -rf /tmp/Gwords

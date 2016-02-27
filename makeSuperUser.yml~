@@ -1,9 +1,0 @@
-#!/usr/bin/env ansible-playbook
----
-- name: Create User Gaobin
-  hosts: all
-  sudo: True
-  vars:
-    superuser_password: ***
-  roles:
-    - superuser

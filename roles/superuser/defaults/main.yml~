@@ -1,8 +1,0 @@
----
-# defaults file for superuser
-superuser_username: gaobin
-superuser_password: si
-superuser_manager_home: /home/gaobin
-superuser_cluster_home: /home/gaobin
-
-    
